@@ -1,5 +1,5 @@
 ---
-title: "Contribute to OpenSentiment"
+title: "Contribute to Open Sentiment"
 description: ""
 lead: ""
 date: 2023-06-16T21:49:42+02:00
@@ -13,7 +13,7 @@ weight: 999
 toc: true
 ---
 
-We are excited to welcome you to the OpenSentiment community! Being in the early phase of development, we need passionate contributors like you to help the project reach its full potential. There are several ways you can make an impact, and every contribution is valuable. 
+We are excited to welcome you to the Open Sentiment community! Being in the early phase of development, we need passionate contributors like you to help the project reach its full potential. There are several ways you can make an impact, and every contribution is valuable. 
 
 ## Dataset Research
 [`opensentiment/datasources`](https://github.com/opensentiment/datasources)
@@ -28,7 +28,7 @@ The creation of robust and representative datasets is a challenging but crucial 
 ## Core Tool Development
 [`opensentiment/opensentiment`](https://github.com/opensentiment/opensentiment)
 
-The heart of the project is the OpenSentiment tool, powered by AI models like Falcon and GPT NeoX. We're in need of contributors with a background in machine learning to assist with model fine-tuning, testing, and improvement. Your work here will directly shape the capabilities of OpenSentiment.
+The heart of the project is the Open Sentiment tool, powered by AI models like Falcon and GPT NeoX. We're in need of contributors with a background in machine learning to assist with model fine-tuning, testing, and improvement. Your work here will directly shape the capabilities of Open Sentiment.
 
 ## Model Training/Finetuning
 
@@ -37,10 +37,10 @@ Model training and fine-tuning is an iterative and complex process, and we need 
 ## Documentation & Website Maintainment
 [`opensentiment/website`](https://github.com/opensentiment/website)
 
-We believe in making OpenSentiment accessible and user-friendly. For this, we need web developers and UX/UI designers to enhance the website's usability, functionality, and aesthetics. If you're someone who can make complex things look simple, we need you!
+We believe in making Open Sentiment accessible and user-friendly. For this, we need web developers and UX/UI designers to enhance the website's usability, functionality, and aesthetics. If you're someone who can make complex things look simple, we need you!
 
 ## Partnerships and Donations
 
-Aside from contributing your skills, you can also support us through partnerships and donations. By forming partnerships, we can leverage collective capabilities to make OpenSentiment even better. Donations, meanwhile, help us sustain the project, expand its reach, and accelerate its development.
+Aside from contributing your skills, you can also support us through partnerships and donations. By forming partnerships, we can leverage collective capabilities to make Open Sentiment even better. Donations, meanwhile, help us sustain the project, expand its reach, and accelerate its development.
 
-OpenSentiment is an ambitious project and we can't do it without your help. Join us in making unbiased news analysis a reality for everyone!
+Open Sentiment is an ambitious project and we can't do it without your help. Join us in making unbiased news analysis a reality for everyone!

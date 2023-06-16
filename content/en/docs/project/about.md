@@ -13,11 +13,11 @@ weight: 999
 toc: true
 ---
 
-OpenSentiment is an initiative that leverages the power of artificial intelligence to analyze political bias in news media. By employing advanced Sentiment Analysis techniques, OpenSentiment aims to illuminate the media landscape, making political biases visible and quantifiable. 
+Open Sentiment is an initiative that leverages the power of artificial intelligence to analyze political bias in news media. By employing advanced Sentiment Analysis techniques, Open Sentiment aims to illuminate the media landscape, making political biases visible and quantifiable. 
 
 ## Our Mission
 
-Our mission at OpenSentiment is threefold: 
+Our mission at Open Sentiment is threefold: 
 
 1. **Promote media literacy**: We aim to provide the public with a tool that helps them critically evaluate the news they consume, fostering a more informed and discerning global citizenry.
 
@@ -41,7 +41,7 @@ News and politics are inherently dynamic, and so our model must be as well. We a
 
 ## The Road Ahead
 
-OpenSentiment is still in its early stages. There is a lot of exciting work to be done and we are actively seeking contributors who are passionate about media literacy, AI, and the intersection of the two. Whether your expertise is in machine learning, data collection, project management, or community engagement, there is a place for you in the OpenSentiment project.
+Open Sentiment is still in its early stages. There is a lot of exciting work to be done and we are actively seeking contributors who are passionate about media literacy, AI, and the intersection of the two. Whether your expertise is in machine learning, data collection, project management, or community engagement, there is a place for you in the Open Sentiment project.
 
 ### Search Functionality
 
@@ -49,4 +49,4 @@ As we move forward, we plan to develop functionality that will allow users to pe
 
 ## Get Involved
 
-Creating a tool like OpenSentiment is an ambitious project. It is technically challenging but achievable with today's technology and data resources. We believe in the transformative potential of this project and invite you to join us in making it a reality. Together, we can make a meaningful contribution to media literacy and public discourse in the digital age.
+Creating a tool like Open Sentiment is an ambitious project. It is technically challenging but achievable with today's technology and data resources. We believe in the transformative potential of this project and invite you to join us in making it a reality. Together, we can make a meaningful contribution to media literacy and public discourse in the digital age.

@@ -15,7 +15,7 @@ toc: true
 
 ## Leveraging Pretrained Transformers
 
-Welcome to the Models documentation section of OpenSentiment! In this section, we will explore the various models that can be used for sentiment analysis, with a particular focus on novel pretrained transformers. We will also discuss how the Hugging Face Transformers library can be utilized to fine-tune existing pretrained models for specific tasks.
+Welcome to the Models documentation section of Open Sentiment! In this section, we will explore the various models that can be used for sentiment analysis, with a particular focus on novel pretrained transformers. We will also discuss how the Hugging Face Transformers library can be utilized to fine-tune existing pretrained models for specific tasks.
 
 ## Sentiment Analysis Models
 
