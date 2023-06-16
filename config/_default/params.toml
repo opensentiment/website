@@ -1,42 +1,43 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Open Sentiment"
+logo = "open-sentiment.png"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "AI Sentiment Analysis Tool"
+description = "OpenSentiment uses AI to help you understand political bias in the news, promoting a more informed and balanced view of world events."
 
 ## Documentation
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["open-sentiment.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "opensentiment.org"
+titleHome = "Open Sentiment"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+## twitterSite = "@getdoks"
+## twitterCreator = "@henkverlinde"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "Open Sentiment"
+schemaAuthor = "Marvin Gabler"
+schemaAuthorTwitter = "https://twitter.com/gablermarvin"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/marvin-gabler/"
+schemaAuthorGitHub = "https://github.com/marvingabler"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "open-sentiment-square.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "open-sentiment.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
-schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+## schemaTwitter = "https://twitter.com/getdoks"
+## schemaLinkedIn = ""
+schemaGitHub = "https://github.com/opensentiment/website"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -68,7 +69,7 @@ fillImage = "1270x740 Center" # normalize image size
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2023 Open Sentiment MIT License"
 
 # Alert
 alert = false
@@ -80,8 +81,8 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "master"
+docsRepo = "https://github.com/opensentiment/website"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = false
 lastMod = false
@@ -111,4 +112,4 @@ lastMod = false
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = true
+    collapsibleSidebar = false

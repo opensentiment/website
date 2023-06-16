@@ -4,10 +4,10 @@
     <div class="col-lg-12 text-center">
       <h1 class="mt-0">{{ .Title }}</h1>
     </div>
-    <div class="col-lg-9 col-xl-8 text-center">
+    <div class="col-lg-9 col-xl-8 text-center mt-3 mb-3">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ $data := getJSON "/package.json" }}{{ $data.version }}</a></p>
+      <a class="btn btn-primary btn-lg px-4 mt-3 mb-3" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}project/contribute/" role="button">{{ i18n "get-started" }}</a>
+      <p class="meta mt-4">Open-source MIT Licensed. <a href="https://github.com/opensentiment">GitHub</a></p>
     </div>
   </div>
 </section>
@@ -19,34 +19,40 @@
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Security aware</h2>
-          <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/doks.netlify.app">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
+          <h2 class="h4">Media Literacy</h2>
+          <p>Empower yourself to discern nuanced biases in news reporting.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Fast by default ⚡️</h2>
-          <p>Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.</p>
+          <h2 class="h4">Balanced Reporting</h2>
+          <p>Hold media organizations accountable by spotlighting their underlying political biases.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">SEO-ready</h2>
-          <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
+          <h2 class="h4">Public Discourse</h2>
+          <p>Encourage informed conversations by understanding the bias landscape.</p>
         </div>
       </div>
       <div class="row justify-content-center text-center">
         <div class="col-lg-5">
-          <h2 class="h4">Full text search</h2>
-          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
+          <h2 class="h4">Comparative Studies</h2>
+          <p>Discover how media sentiments shift across regions and political systems.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Page layouts</h2>
-          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
+          <h2 class="h4">Bias Over Time</h2>
+          <p>Watch the evolution of media bias and its impact on global events.</p>
         </div>
         <div class="col-lg-5">
-          <h2 class="h4">Dark mode</h2>
-          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
+          <h2 class="h4">Collective Effort</h2>
+          <p>Contribute to Open Sentiment's mission to illuminate the media landscape and educate the public.</p>
         </div>
       </div>
     </div>
-  </section>
+
+    <div class="container">
+      <div class="row justify-content-center text-center mt-5">
+        <p>Note: OpenSentiment has just been launched and we are actively seeking contributors, partners, and supporters.</p>
+      </div>
+    </div>
+      </section>
   {{ end }}
 {{ end }}
 

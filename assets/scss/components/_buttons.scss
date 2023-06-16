@@ -61,6 +61,17 @@ pre {
   }
 }
 
+.btn-primary {
+  color: $color-btn-text;
+  background-color: $color-btn-bg;
+}
+
+.btn-primary:hover {
+  color: $color-btn-text;
+  background-color: lighten($color-btn-bg, 5%);
+  border-color: lighten($color-btn-border, 15%);
+}
+
 .btn-copy {
   transition: opacity 0.3s ease-in-out;
   visibility: hidden !important;

@@ -2,6 +2,10 @@
   {{ partial "header/alert.html" . }}
 {{ end -}}
 
+{{ $logo := resources.Get (printf "%s%s" "images/" site.Params.logo) }}
+{{ $logo = $logo.Fill site.Params.fillImage }}
+{{ $lqip := $logo.Resize site.Params.lqipWidth -}}
+
 {{ if eq .Site.Params.options.navbarSticky true -}}
 <div class="sticky-top">
 {{ end -}}
@@ -11,10 +15,13 @@
 <header class="navbar navbar-expand-lg navbar-light doks-navbar">
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-lg-nowrap" aria-label="Main navigation">
 
-    <a class="navbar-brand order-0" href="{{ .Site.BaseURL | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
+    <a class="navbar-brand order-0 mb-1" href="{{ .Site.BaseURL | relLangURL }}" aria-label="{{ .Site.Params.Title }}">
+      <!-- <img src="{{ $logo.Permalink }}" alt="{{ .Site.Params.Title }}"> -->
       {{ .Site.Params.Title }}
+     <noscript><img src="{{ $logo.Permalink }}" alt="{{ .Site.Params.Title }}"></noscript>
     </a>
 
+    
     {{ if (in .Site.Params.sections.sectionNav .Section) -}}
     <button class="btn btn-link order-0 ms-auto d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
